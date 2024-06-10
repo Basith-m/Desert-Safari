@@ -8,12 +8,8 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-<<<<<<< HEAD
-    <div className='header bg-body-tertiary shadow'>
+    <div className='headHEADer bg-body-tertiary shadow'>
 
-=======
-    <div className='header bg-body-tertiary'>
->>>>>>> master
       <div className='nav-contact d-flex align-items-center justify-content-center gap-2 py-2 fw-semibold'>
         <span>DUBAI DESERT SAFARI</span>
         <div className='d-flex align-items-center justify-content-center'>
