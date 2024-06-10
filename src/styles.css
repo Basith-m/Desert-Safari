@@ -27,10 +27,16 @@ body {
 }
 .header .nav-contact {
   background-color: rgb(253, 161, 161);
+  font-size: 1rem;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 540px) {
   .header .nav-contact {
-    flex-direction: column;
+    font-size: 0.75rem;
+  }
+}
+@media screen and (max-width: 340px) {
+  .header .nav-contact {
+    font-size: 0.6rem;
   }
 }
 .header .toggle-btn {
@@ -87,41 +93,57 @@ body {
   }
 }
 
-.gallery {
-  padding: 10rem 20px 20px;
-  background-color: #f5f5f5;
-}
-.gallery .gallery-heading {
-  font-size: 2.5em;
-  color: #333;
-  text-align: center;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-.gallery .gallery-container {
-  max-width: 85%;
+.gallery-container {
+  max-width: 80%;
+  margin: 0 auto;
   padding: 20px;
-  border: 1px solid rgb(236, 177, 37);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background: #fff;
+  padding-top: 8.5rem;
 }
-.gallery .gallery-container .image-gallery-slide img {
-  height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 8px;
-}
-.gallery .gallery-container .image-gallery-thumbnail img {
-  height: 60px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 4px;
-}
-.gallery .gallery-container .image-gallery-left-nav,
-.gallery .gallery-container .image-gallery-right-nav {
-  display: none;
+.gallery-container .image-gallery-slide img {
+  border-radius: 10px;
 }
 
+.contact {
+  padding-top: 8.5rem;
+}
+.contact .contact-container {
+  padding: 2rem;
+}
+.contact .contact-container h2 {
+  font-weight: bold;
+}
+.contact .contact-container span {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 540px) {
+  .home {
+    padding-top: 8rem;
+  }
+  .gallery-container {
+    max-width: 85%;
+    padding: 20px;
+    border: 1px solid rgb(236, 177, 37);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+  }
+  .gallery-container .image-gallery-slide img {
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 8px;
+  }
+  .gallery-container .image-gallery-thumbnail img {
+    height: 60px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 4px;
+  }
+  .gallery-container .image-gallery-left-nav,
+  .gallery-container .image-gallery-right-nav {
+    display: none;
+  }
+}
 .basith-class {
-  margin: 2rem;
+  margin: 1rem;
 }/*# sourceMappingURL=styles.css.map */
