@@ -9,6 +9,8 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
 
+    <div className='headHEADer bg-body-tertiary shadow'>
+
     <div className='header bg-body-tertiary shadow'>
     <div className='header bg-body-tertiary'>
       <div className='nav-contact d-flex align-items-center justify-content-center gap-2 py-2 fw-semibold'>
