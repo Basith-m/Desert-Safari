@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <div className='header bg-body-tertiary shadow'>
+
       <div className='nav-contact d-flex align-items-center justify-content-center gap-2 py-2 fw-semibold'>
         <span>DUBAI DESERT SAFARI</span>
         <div className='d-flex align-items-center justify-content-center'>
@@ -16,6 +17,7 @@ const Header = () => {
           <span>+971 501151643</span>
         </div>
       </div>
+
       <Navbar expand="lg">
         <Container>
           <Navbar.Brand href="#home">
@@ -33,6 +35,7 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      
     </div>
   )
 }

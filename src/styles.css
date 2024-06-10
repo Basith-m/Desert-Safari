@@ -120,4 +120,8 @@ body {
 .gallery .gallery-container .image-gallery-left-nav,
 .gallery .gallery-container .image-gallery-right-nav {
   display: none;
+}
+
+.basith-class {
+  margin: 2rem;
 }/*# sourceMappingURL=styles.css.map */
