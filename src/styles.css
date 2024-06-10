@@ -116,8 +116,34 @@ body {
   font-weight: 500;
 }
 
-@media screen and (max-width: 340px) {
-  .nav-contact {
-    font-size: 0.6rem;
+@media screen and (max-width: 540px) {
+  .home {
+    padding-top: 8rem;
   }
+  .gallery-container {
+    max-width: 85%;
+    padding: 20px;
+    border: 1px solid rgb(236, 177, 37);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+  }
+  .gallery-container .image-gallery-slide img {
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 8px;
+  }
+  .gallery-container .image-gallery-thumbnail img {
+    height: 60px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 4px;
+  }
+  .gallery-container .image-gallery-left-nav,
+  .gallery-container .image-gallery-right-nav {
+    display: none;
+  }
+}
+.basith-class {
+  margin: 1rem;
 }/*# sourceMappingURL=styles.css.map */

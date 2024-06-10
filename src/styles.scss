@@ -146,18 +146,28 @@ body {
   }
 
   .gallery-container {
-    padding-top: ;
-  }
-  
-  .contact {
-    padding-top: ;
-  }
+    max-width: 85%;
+    // margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgb(236 177 37);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
 
-}
+    .image-gallery-slide img {
+      height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .image-gallery-thumbnail img {
+      height: 60px; 
+      object-fit: cover;
+      border-radius: 4px;
 
-@media screen and (max-width: "340px") {
-  .nav-contact {
-    font-size: 0.6rem;
+    }
+    .image-gallery-left-nav,
+    .image-gallery-right-nav {
+      display: none;
+    }
   }
 }
 
