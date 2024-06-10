@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div className='header bg-body-tertiary'>
+    <div className='header bg-body-tertiary shadow'>
       <div className='nav-contact d-flex align-items-center justify-content-center gap-2 py-2 fw-semibold'>
         <span>DUBAI DESERT SAFARI</span>
         <div className='d-flex align-items-center justify-content-center'>
@@ -27,7 +27,7 @@ const Header = () => {
               <Nav.Link href="#home" className='nav-link'><Link to='/' className='link'>Home</Link></Nav.Link>
               <Nav.Link href="#link" className='nav-link'><Link to='/' className='link'>About Us</Link></Nav.Link>
               <Nav.Link href="#home" className='nav-link'><Link to='/' className='link'>Evening Desert Safari</Link></Nav.Link>
-              <Nav.Link href="#link" className='nav-link'><Link to='/gallery' className='link' >Gallery</Link></Nav.Link>
+              <Nav.Link className='nav-link'><Link to='/gallery' className='link' >Gallery</Link></Nav.Link>
               <Nav.Link href="#home" className='nav-link'><Link to='/' className='link'>Contact Us</Link></Nav.Link>
             </Nav>
           </Navbar.Collapse>
